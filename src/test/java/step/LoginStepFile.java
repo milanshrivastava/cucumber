@@ -25,7 +25,7 @@ public class LoginStepFile {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
     }
-    @Then(": Verify login should sucessfully done")
+    @Then(": Verify login the  should sucessfully done")
     public void verify_login_should_sucessfully_done() {
         SoftAssert softAssert= new SoftAssert();
         softAssert.assertEquals(driver.getTitle(),"Rediffmail - Free Email for Login with Secure Access");
