@@ -18,7 +18,7 @@ public class LoginStepFile {
 
 
     }
-    @When(": Enter the valid username and valid password")
+    @When(": Enter valid username and valid password")
     public void enter_the_valid_username_and_valid_password() {
         driver.findElement(By.id("login1")).sendKeys("milanshrivastava");
         driver.findElement(By.name("passwd")).sendKeys("a12333");
